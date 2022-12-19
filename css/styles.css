@@ -1,0 +1,206 @@
+:root{
+    --primary-text-color:#434455 ;
+    --secondary-text-color:#2E2F42;
+    --accent-color:#4D5AE5;
+    --primary-white-color:FFFFFF;
+}
+
+body{
+    background-color:var(--primary-white-color);
+    color:var(--primary-text-color) ;
+    font-family: "roboto",sans-serif;
+}
+
+/* header */
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+.text-colored{
+    color: var(--accent-color) ;
+}
+
+ul{
+    list-style: none;
+}
+/* site nav */
+.header-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+    color:var(--secondary-text-color); 
+    text-decoration: none;   
+}
+
+.header-link:hover,
+.header-link:focus {
+    color:var(--primary-text-color);
+}
+.contact-link{ 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    text-decoration:none;
+}
+.contact-link:hover,
+.contact-link:focus
+{
+color: var(--accent-color);
+}
+/* hero */
+.hero-title {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:var(--primary-text-color) ;
+}
+.hero-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color:#ffffff;
+    background:#4D5AE5;
+}
+.hero-button:active{
+    background: #404BBF;
+}
+.hero-button:hover,
+.hero-button:focus{
+    background:var(--accent-color);
+    cursor: pointer;
+}
+
+/* section and section team */
+
+.section-post-title,
+.team-post-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--secondary-text-color);
+}
+.section-text,
+.team-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.team{
+    background: #F4F4FD;
+}
+/* section work and section team*/
+.work-title,
+.team-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:var(--secondary-text-color);
+}
+/* footer */
+.footer-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+
+/* portfolio */
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+}
+.button{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #434455;
+    background-color:var(--primary-white-color);
+
+}
+.button-primary{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color:#4D5AE5;
+}
+.button-primary:hover,
+.hero-button:focus
+{
+    color:#4D5AE5 ;
+    background-color:#ffffff;
+    cursor: pointer;
+}
+.button-secondary{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+.button-secondary:hover,
+.button-secondary:focus{
+    color: #ffffff;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+.example-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+
+}
+.examle-list {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
