@@ -33,6 +33,7 @@ body {
 }
 
 .logo {
+    margin-right: 76px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
@@ -60,8 +61,8 @@ ul {
 }
 .header-list {
   display: flex;
-  margin-top: 0;
-  margin-bottom: 0;
+ margin: 0;
+ padding: 0;
 }
 
 .header-item:not(:first-child) {
@@ -112,8 +113,8 @@ ul {
   background: var(--secondary-text-color);
 }
 .hero-title {
-  margin-top: 0;
   margin-bottom: 48px;
+  text-align: center;
   font-weight: 500;
   font-size: 56px;
   line-height: 1.07;
@@ -122,6 +123,7 @@ ul {
 }
 .hero-button {
   border-radius: 4px;
+  border-color: transparent;
   padding: 16px 32px;
   min-width: 170px;
   font-family: inherit;
@@ -144,7 +146,8 @@ ul {
 
 /* section and section team */
 .section {
-  margin: 120px 0 0 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .section-list {
   margin: 0;
@@ -185,12 +188,11 @@ ul {
 }
 /* section work and section team*/
 .work-section {
-  margin-top: 120px;
+  padding-bottom: 120px;
 }
 .team-section {
   padding-top: 120px;
   padding-bottom: 120px;
-  margin-top: 120px;
 }
 .work-list {
   padding: 0;
@@ -212,7 +214,6 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 .team-describtion {
-  width: 232px;
   padding: 32px 0;
   margin: 0 auto;
 }
@@ -258,7 +259,8 @@ ul {
 
 /* portfolio */
 .portfolio-list {
-  margin-top: 96px;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .visually-hidden {
   position: absolute;
@@ -274,7 +276,6 @@ ul {
 }
 .button-list {
   padding: 0;
-  padding-top: 120px;
   margin: 0;
   display: flex;
   text-align: center;
@@ -314,7 +315,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    padding-bottom: 120px;
+   
     margin-top: 72px;
     column-gap: 24px;
     row-gap: 48px;
